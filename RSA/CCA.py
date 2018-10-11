@@ -26,12 +26,13 @@ def mod_inv(a,b,x1,x2,y1,y2):
 		print "mod_inv_doesn't_exist"
 
 # Exploit
+# A simple implementation for learning Choosen Ciphertext Attack
 m = bytes_to_long(m)
 d = (mod_inv(e,phi,1,0,0,1))%phi
 r = 13907
 c = pow(m,e,n)
 c1 = c * pow(r,e,n)
-d1 = pow(c1,d,n)
-pt = d1/r
+c1 = pow(c1,d,n)
+pt = c1/r
 print long_to_bytes(pt)
 print m == pt
