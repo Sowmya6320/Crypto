@@ -1,4 +1,4 @@
-# Function to perform Baby Step Giant Step Attack. This function only works for small integers
+# A Function to perform Baby Step Giant Step Attack. This function only works for small integers
 # enc = pow(g,msg,p)
 
 def bsgs(enc,g,p):
