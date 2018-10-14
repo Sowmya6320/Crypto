@@ -1,2 +1,2 @@
 # Crypto
-A Repository for the different attacks learned and challenges solved in Crypto.  
+A Repository for the various attacks learned and challenges solved in Cryptography.  
