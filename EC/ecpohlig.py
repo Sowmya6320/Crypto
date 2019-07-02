@@ -27,7 +27,6 @@ def ecpohlig(alph,beta,p):
 			beta0 = beta_i - Xi*(alph0)
 		x.append(Xi)
 	X = crt(x,qe)
-	print X , X*alph == beta
 	return X
 
 N = 157
